@@ -1,0 +1,71 @@
+li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+.snippet_items{
+    margin: 2rem;
+}
+.gradient{
+    background-image: repeating-linear-gradient(
+        -45deg,
+        #dd840d 0px,
+        #dd840d 20px,
+        #fae1d4 20px,
+        #fae1d4 40px
+    );
+}
+.snippet_display{
+    height: 5rem;
+    border: 1px solid green;
+}
+.label label{
+    border: 1px solid green;
+    padding: .2rem 1rem;
+    margin: 1rem;
+}
+.checkInput{
+    height: 70px;
+    width: 70px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    font-size: 4rem;
+    background: repeating-linear-gradient(
+        90deg,
+        #30be8b 0 2rem,
+        #29a377 2rem 4rem
+    );
+}
+.hero{
+    background: linear-gradient(
+        90deg,
+        #b24592,
+        #f15f79
+    );
+}
+.example_contain{
+    display: flex;
+}
+.metal{
+    background: linear-gradient(
+        #cfd7cf 0%,
+        #e3e3e3 45%,
+        #d8d8d8 50%,
+        #e3e3e3 55%,
+        #cfd7cf 100%
+    );
+    display: flex;
+    flex: .8;
+
+}
+.aside{
+    background: linear-gradient(
+        #0072ff,
+        #00c6ff
+    );
+    flex:0.2;
+}
